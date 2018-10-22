@@ -1,5 +1,6 @@
 setup:
+	python3 -m venv venv-demon
 	venv-demon/bin/pip install -r requirements.txt
 
 run:
-	venv/bin/python app.py
+	venv-demon/bin/python app.py
